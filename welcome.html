@@ -10,9 +10,14 @@
 <div class="container">
     <h1>Welcome</h1>
     <div class="container2">
-<button type="button"><img src="image(1).png" alt="Button Image"></button>
-<button type="button"><img src="image(3)(1).png" alt="Button Image"></button>
+<button type="button" onclick="goToOtherPage('inscrireStu.php')"><img src="image(1).png" alt="Button Image"></button>
+<button type="button" onclick="goToOtherPage('inscrirePro.html')"><img src="image(3)(1).png" alt="Button Image"></button>
 </div>
 </div>
+<script>
+    function goToOtherPage(targetPage) {
+      window.location.href = targetPage;
+    }
+  </script>
 </body>
 </html>
